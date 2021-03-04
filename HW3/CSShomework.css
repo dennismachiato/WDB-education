@@ -1,0 +1,201 @@
+/* Ignore following classes */
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #EEEEEE;
+}
+
+#intro{
+    color:rgb(0, 0, 0);
+    text-align: center;
+    margin: 50px;
+}
+
+.insideborder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.para{
+    font-weight: 300;
+    margin-left: 10px;
+}
+
+
+h2{
+    font-size: medium;
+    font-weight: 200;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Classes that you might find useful */
+/* Note* These classes do not cover every possibloe case to build you flags, you will have to continue to add your own*/
+
+
+.flag{
+    height: 300px;
+    width: 500px;
+    border-style: solid;
+    margin-bottom: 5rem;
+}
+
+.center{
+    position: relative;
+    margin-top: 70px;
+    margin-left: 8px;
+}
+
+.horiz{
+    display: flex;
+    flex-direction: row;
+}
+
+.twovert{
+    height: 50%;
+}
+
+.threevert{
+    height: 33.3%;
+}
+
+.threehoriz{
+    width: 33.3%
+}
+
+.skinnyvert{
+    height: 16.65%;
+}
+
+.skinnyhoriz{
+    width: 16.65%;
+}
+
+.fat{
+    height: 30%;
+}
+
+
+.circle{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 150px;
+    top: 50px
+}
+
+.flex-finland{
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start;
+    justify-content: flex-start; */
+}
+
+.finlandvert{
+    height: 80px;
+}
+
+.finlandhoriz{
+    width: 80px;
+    height: 120px;
+    margin-left: 120px;
+}
+
+
+.flex-SriLanka{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.srilankablue{
+    width: 80px;
+    height: 240px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.srilankaorange{
+    width: 80px;
+    height: 240px;
+    margin-top: 30px;
+}
+
+.srilankared{
+    width: 240px;
+    height: 240px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+/* vertical striped flags*/
+.flagvert{
+    height: 300px;
+    width: 500px;
+    border-style: solid;
+    margin-bottom: 5rem;
+}
+
+
+
+
+
+
+
+/* Colors/ Feel free to add your own! */
+
+.red{
+    background-color: red;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.green{
+    background-color: green;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.lightblue{
+    background-color: lightblue;
+}
+
+.purple{
+    background-color: purple;
+}
+
+.purple{
+    background-color: white;
+}
+
+
+
